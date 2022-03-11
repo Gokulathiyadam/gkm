@@ -1,13 +1,16 @@
 c = int(input(print("enter a number : ")))
-
+print (c)
 def sum(x):
-   i= 0
-   y
-   while i < x:
-        y= y+i
-        print(y)
-        i=+1
-sum(c)
+    tot = 0
+    i=1
+    while i<= x:
+        tot+=i
+        i+=1
+    return tot
+
+
+koot = sum(c)
+print(koot)
 
 
 
